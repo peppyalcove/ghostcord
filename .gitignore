@@ -1,0 +1,11 @@
+# build config
+copy:
+  - src/**
+  - package.json
+node_modules/
+dist/
+*.log
+module.exports = {
+  semi: false,
+  singleQuote: true
+}
